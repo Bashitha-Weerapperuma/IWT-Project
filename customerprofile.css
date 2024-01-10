@@ -1,0 +1,314 @@
+﻿.logo1 {
+    width: 25%;
+}
+
+.logo2 {
+    width: 50%;
+}
+
+.logo3 {
+    width: 25%;
+}
+
+.logo {
+    margin-top: -10px;
+    width: 200px;
+    height: 100px;
+}
+
+.logo-text1 {
+    margin-top: 10px;
+    font-family: candara;
+    color: #800000;
+    font-size: 40px;
+    text-align: center;
+}
+
+.logo-text2 {
+    color: #000080;
+    font-family: garamond;
+    text-align: center;
+}
+
+
+
+
+.horizontal_line {
+    margin: 0 auto;
+    height: 3px;
+    background-color: #750000;
+}
+
+.header {
+    list-style-type: none;
+    font-family: arial;
+}
+
+    .header li {
+        display: inline-block;
+    }
+
+        .header li a {
+            text-decoration: none;
+            color: #000;
+            padding: 110px;
+        }
+
+            .header li a:hover {
+                color: #750000;
+            }
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    margin-left: 175px;
+    margin-top:auto
+}
+
+
+
+.fulltable {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.tdmain {
+    background-color: #230000;
+}
+
+.dashboad_btn {
+    color: #fff;
+    background-color: #750000;
+    border: solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #750000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9900;
+    border-radius: 30px;
+    border-color: white;
+}
+
+    .dropdown-content a {
+        color: white;
+        font-weight: bold;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 30px;
+        border-color: white;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #460000;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #460000;
+}
+
+.topicadmin {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+
+
+.site-footer {
+    background-color: #26272b;
+    padding: 35px 0 20px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.td_1 {
+    width: 50%;
+    font-family: garamond;
+}
+
+.text-justify1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-justify2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+    .site-footer hr.small {
+        margin: 20px 0
+    }
+
+.td_2, .td_3 {
+    width: 25%;
+    font-family: garamond;
+    text-align: left;
+}
+
+
+.site-footer h6 {
+    color: #737373;
+    font-size: 18px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: #737373;
+    text-decoration: none;
+}
+
+    .site-footer a:hover {
+        color: #3366cc;
+        text-decoration: none;
+    }
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+    .footer-links li {
+        display: block;
+        font-size: 20px;
+    }
+
+    .footer-links a {
+        color: #737373
+    }
+
+        .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+    .footer-links.inline li {
+        display: inline-block
+    }
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+    .site-footer .social-icons a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 6px;
+        margin-right: 0;
+        border-radius: 100%;
+        background-color: #33353d
+    }
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+        .site-footer .social-icons {
+            text-align: center
+        }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+    .social-icons li {
+        display: inline-block;
+        margin-bottom: 4px;
+    }
+
+        .social-icons li.title {
+            margin-right: 15px;
+            text-transform: uppercase;
+            color: #96a2b2;
+            font-weight: 700;
+            font-size: 13px
+        }
+
+    .social-icons a {
+        background-color: #eceeef;
+        color: #818a91;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 44px;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+
+    .social-icons.size-sm a {
+        line-height: 34px;
+        height: 34px;
+        width: 34px;
+        font-size: 14px
+    }
+
+    .social-icons a.facebook:hover {
+        background-color: #3b5998
+    }
+
+    .social-icons a.twitter:hover {
+        background-color: #00aced
+    }
+
+    .social-icons a.linkedin:hover {
+        background-color: #007bb6
+    }
+
+    .social-icons a.dribbble:hover {
+        background-color: #ea4c89
+    }

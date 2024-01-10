@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.support-id {
+    width: 10%;
+}
+
+.email {
+    width: 20%;
+}
+
+.message {
+    width: 50%;
+}
+
+.action {
+    width: 20%;
+}
+
+.action a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.action a:hover {
+    text-decoration: underline;
+}
+
+a.delete-link {
+    color: red;
+}
+
+a.update-link {
+    color: blue;
+}

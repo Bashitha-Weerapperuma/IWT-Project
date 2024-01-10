@@ -1,0 +1,24 @@
+﻿
+.topics {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Shrikhand', sans-serif;
+    /*margin: 29px 20px 10px 40px;  Specify margins: top right bottom left */
+}
+
+.save-profile {
+    background-color: #750000;
+    color: #fff;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.topics {
+    color: #750000;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Shrikhand', sans-serif;
+    /*margin: 29px 20px 10px 40px;  Specify margins: top right bottom left */
+}

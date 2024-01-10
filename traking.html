@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tracking Page</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        h1 {
+            font-family: Arial;
+        }
+        
+        .tracking-form {
+            text-align: center;
+        }
+        
+        .tracking-form input {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .tracking-form button {
+            padding: 10px 20px;
+            float: left;
+            width: 200px;
+            height: 40px;
+            margin-left: 50px;
+            margin-top: 15px;
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-family: Arial;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            background-color: #750000;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo img {
+            width: 200px;
+            /* Adjust the width as per your logo size */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tracking-form">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <h1>Tracking</h1>
+
+            <div>
+                <input type="text" id="tracking-number" name="tracking-number" placeholder="Enter tracking number" required>
+            </div>
+            <div>
+                <button type="submit" onclick="tr();">Track</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>

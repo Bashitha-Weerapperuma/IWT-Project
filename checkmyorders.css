@@ -1,0 +1,32 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #750000;
+}
+
+#orders-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.order {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 45%;
+}
+
+    .order h2 {
+        margin-top: 0;
+        color: #750000;
+    }
+
+    .order p {
+        margin-bottom: 10px;
+    }

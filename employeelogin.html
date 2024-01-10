@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="adminstyle.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box  login">
+            <h2>Employee Login</h2>
+
+            <form action="./login.php" method="POST">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="femail" required id="em2">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="fpassword" required id="pw2">
+                    <label>Password</label>
+                </div>
+                <div class="forgot">
+                    <p>Are you Admin?  </p><a href="employeelogin.html">Log Hear</a>
+                </div>
+
+                <div class="forgot">
+                    <p>Customer login </p><a href="login.html">Log Hear</a>
+                </div>
+                
+                
+                <div class="forgot">
+                    <a href="fogetpassword.html">Forgot Password?</a>
+                </div>               
+                <button type="submit" class="btn" onclick="signin();">Login</button>
+            </form>
+            </br>
+            
+            <div class="login-register">
+                <p>Don't have an account? <a href="#" class="register-link">Register</a> </p>
+            </div>
+
+
+        </div>
+    </div>
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

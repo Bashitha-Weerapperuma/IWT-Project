@@ -1,0 +1,126 @@
+   body {
+      font-family: Arial, sans-serif;
+    }
+
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    margin-left: 150px;
+}
+
+.trr {
+    vertical-align: top;
+}
+
+.fulltable {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tdmain {
+    background-color: #230000;
+}
+
+.dashboad_btn {
+    color: #fff;
+    background-color: #750000;
+    border: solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    border-color: white;
+    margin-left: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #750000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9900;
+    border-radius: 30px;
+    
+    
+    
+}
+
+    .dropdown-content a {
+        color: white;
+        font-weight: bold;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 30px;
+        border-color: white;
+        
+    }
+
+        .dropdown-content a:hover {
+            background-color: #460000;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #460000;
+}    
+    .container {
+      margin: 20px;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+	  margin-left:150px;
+    }
+    
+    textarea {
+      width: 75%;
+      height: 150px;
+      resize: vertical;
+	  margin-top:10px;
+	  
+    }
+    
+
+    
+    .submit-button {
+   
+	  
+	width:100px;
+	height:40px;
+	margin-left:800px;
+	margin-top:15px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-family:Arial;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	background-color: #750000;
+	  
+    }
+	
+form{
+text-align:center;
+}
+
+label{
+	  margin-left:150px;
+}
